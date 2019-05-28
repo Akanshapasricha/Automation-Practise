@@ -40,7 +40,7 @@ public class DashBoardTesting extends BaseLibs {
 		dashboardPage.checkboxBrand();
 	}
 	@AfterMethod
-	public void closeDriver()
+	public void closeDriver() throws InterruptedException
 	{
 		driver.close();
 		Thread.sleep(2000);
