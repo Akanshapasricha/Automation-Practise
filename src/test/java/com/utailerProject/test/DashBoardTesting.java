@@ -43,7 +43,7 @@ public class DashBoardTesting extends BaseLibs {
 	public void closeDriver() throws InterruptedException
 	{
 		driver.close();
-		Thread.sleep(2000);
+		Thread.sleep(2000); 
 	}
 	
 }
