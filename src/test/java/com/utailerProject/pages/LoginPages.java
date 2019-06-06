@@ -28,6 +28,5 @@ public class LoginPages extends BaseLibs {
 		KeyWords.SendData(password, pass);
 		KeyWords.Click(loginBtn);
 		return new DeshBoardPages();
-
-	}
+}
 }
