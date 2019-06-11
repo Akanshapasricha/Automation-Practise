@@ -1,14 +1,16 @@
 package com.utailerProject.test;
 
 import org.testng.annotations.AfterMethod;
+
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.utailerProject.baseClass.BaseLibs;
 import com.utailerProject.pages.DeshBoardPages;
 import com.utailerProject.pages.HomePages;
 import com.utailerProject.pages.LoginPages;
-
+@Listeners(com.utailerProject.Utils.ListenerTest.class)
 public class DashBoardTesting extends BaseLibs {
 	HomePages homePage;
 	LoginPages loginPage;
