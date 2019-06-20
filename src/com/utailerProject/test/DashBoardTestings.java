@@ -11,12 +11,12 @@ import com.utailerProject.pages.DeshBoardPages;
 import com.utailerProject.pages.HomePages;
 import com.utailerProject.pages.LoginPages;
 @Listeners(com.utailerProject.Utils.ListenerTest.class)
-public class DashBoardTesting extends BaseLibs {
+public class DashBoardTestings extends BaseLibs {
 	HomePages homePage;
 	LoginPages loginPage;
 	DeshBoardPages dashboardPage;
 
-	public DashBoardTesting() {
+	public DashBoardTestings() {
 		super();
 	}
 	

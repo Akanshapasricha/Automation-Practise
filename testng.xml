@@ -2,11 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
-        <listeners>
-<listener class-name="com.utailerProject.Utils.ListenerTest" />
-</listeners> 
     <classes>
-      <class name="com.utailerProject.test.DashBoardTesting"/>
+      <class name="com.utailerProject.test.DashBoardTestings"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -1,29 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="27997" started-at="2019-05-28T10:11:02Z" finished-at="2019-05-28T10:11:30Z">
+  <suite name="Suite" duration-ms="11" started-at="2019-06-19T11:50:41Z" finished-at="2019-06-19T11:50:41Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="27997" started-at="2019-05-28T10:11:02Z" finished-at="2019-05-28T10:11:30Z">
-      <class name="com.utailerProject.test.DashBoardTesting">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.utailerProject.test.DashBoardTesting@28d25987]" name="setUp" is-config="true" duration-ms="11302" started-at="2019-05-28T15:41:02Z" finished-at="2019-05-28T15:41:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyDasboardTitle()[pri:1, instance:com.utailerProject.test.DashBoardTesting@28d25987]" name="verifyDasboardTitle" duration-ms="11" started-at="2019-05-28T15:41:14Z" finished-at="2019-05-28T15:41:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyDasboardTitle -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.utailerProject.test.DashBoardTesting@28d25987]" name="setUp" is-config="true" duration-ms="9942" started-at="2019-05-28T15:41:14Z" finished-at="2019-05-28T15:41:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyMenLink()[pri:2, instance:com.utailerProject.test.DashBoardTesting@28d25987]" name="verifyMenLink" duration-ms="6719" started-at="2019-05-28T15:41:24Z" finished-at="2019-05-28T15:41:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMenLink -->
-      </class> <!-- com.utailerProject.test.DashBoardTesting -->
+    <test name="Test" duration-ms="11" started-at="2019-06-19T11:50:41Z" finished-at="2019-06-19T11:50:41Z">
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
